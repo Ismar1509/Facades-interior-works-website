@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Fasade i unutarnji radovi - MEDO</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-cont">
+            <a href="#home"><img id="logo" src="img/logo.jpg" alt="Logo"> </a>
+            <div class="responsive" id="resp-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-options">
+                    <a href="#home" class="links">Početna</a>
+                </li>
+                <li class="nav-options">
+                    <a href="#aboutUs" class="links">O nama</a>
+                </li>
+                <li class="nav-options">
+                    <a href="#employees" class="links">Uposlenici</a>
+                </li>
+                <li class="nav-options">
+                    <a href="#contact" class="links">Kontakt</a>
+                </li>
+                <li class="nav-options">
+                    <a href="en.html" class="links">
+                        <img src="img/uk.png" alt="ENG-LANG">
+                    </a>
+                </li>
+                <!--
+                    <li class="nav-options">
+                    <a href="" class="links">
+                        <button style="font-size:24px" class="mode" onclick="darkModeFunction()"><i class="fa fa-moon-o"></i></button>
+                    </a>
+                </li>
+                -->
+                <!-- Dark mode may be implemented later-->
+            </ul>
+        </div>
+    </nav>
+    
+    <button onclick="topReturn()" id="topBtn" title="Go to the top">Vrh</button>
+    
+    <section class="home-section" id="home">
+        
+        <div class="home-container">
+            <div class="home-centered">
+                <h1 class="home-heading">Fasade i unutarnji radovi - Medo</h1>
+                <p class="home-paragraph"> Više od stotinu projekata diljem BiH </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="aboutUs-section" id="aboutUs">
+        <div class="aboutUs-container">
+            <div class="aboutUs-wrapper">
+                <img src="img/img1.jpg" class="imgs" alt="Image 1">
+                <img src="img/img2.jpg" class="imgs" alt="Image 2">
+                <img src="img/img3.jpg" class="imgs" alt="Image 3">
+            </div>   
+        </div>
+        <div class="aboutUs-content">
+            <div class="aboutUs-split right">
+                <div class="aboutUs-center">
+                    <h1>O nama</h1>
+                    <h3>Osnivač/vlasnik: Almedin Spahić - Medo <br>
+                    Lokacija: ZENICA, BOSNA i Hercegovina<br>
+                    Osnovano: 1. April 2015. <br>
+                    Broj projekata: 100+<br>
+                    Moto: Vaš dom je naša najbolja reklama. <br>
+                    Opis: Radimo na preporuku sa garancijom na naš rad.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="employees-section" id="employees">
+        <div class="teams-header">
+            <h1> Uposlenici </h1>
+            <button class="employees-btn"> Vidi sve</button>
+        </div>
+        <div class="employees-container">
+        <div class="employees-teams">
+            <img src="img/almedin.jpg" class="team-imgs" alt="">
+            <div class="team-names">Almedin Spahić</div>
+            <div class="team-design">Vlasnik</div>
+            <div class="team-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, fuga unde facilis, 
+                laudantium ipsum dolores laboriosam omnis delectus rerum voluptatibus sit 
+                at quam consequatur nesciunt mollitia neque, magnam saepe reprehenderit?</div>
+            
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+        </div>
+        <div class="employees-teams" id="team-img2">
+            <img src="img/elvedin.jpg" class="team-imgs"  alt="">
+            <div class="team-names">Elvedin Bišić</div>
+            <div class="team-design">Fasader</div>
+            <div class="team-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, fuga unde facilis, 
+                laudantium ipsum dolores laboriosam omnis delectus rerum voluptatibus sit 
+                at quam consequatur nesciunt mollitia neque, magnam saepe reprehenderit?</div>
+            
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+        </div>
+        <div class="employees-teams" id="team-img3">
+            <img src="img/mevludin.jpg" class="team-imgs"  alt="">
+            <div class="team-names">Mevludin Spahić</div>
+            <div class="team-design">-</div>
+            <div class="team-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, fuga unde facilis, 
+                laudantium ipsum dolores laboriosam omnis delectus rerum voluptatibus sit 
+                at quam consequatur nesciunt mollitia neque, magnam saepe reprehenderit?</div>
+            
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="iframe-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d308.229365443627!2d17.82048676170448!3d44.24304131937579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1shr!2sba!4v1669602680930!5m2!1shr!2sba" width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contact-contents">
+            <div class="contact-wrapper right">
+                <div class="contact-options">
+                        <h1>Kontakti</h1>
+                        <h3>Telefon: +387 xx xxx xxx <br>
+                        E-mail: Spahicalmedin12@gmail.com<br></h3>
+                        <a href="https://www.facebook.com/medofasadee"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/fasade_medo/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>   
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="footer-container">
+            <p> Sva prava zadržana!</p>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
