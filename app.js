@@ -1,3 +1,4 @@
+//Dropdown responsive menu
 const responsiveMenu = document.querySelector('#resp-menu');
         const navbarMenu = document.querySelector('.nav-menu');
 
@@ -6,6 +7,8 @@ const responsiveMenu = document.querySelector('#resp-menu');
             navbarMenu.classList.toggle('active');
         })
 
+
+//Top button
 let mybutton = document.getElementById("topBtn");
 
         window.onscroll = function() {scrollFunction()};
@@ -26,5 +29,22 @@ let mybutton = document.getElementById("topBtn");
           $("html, body").animate({ scrollTop: 0 }, 600); 
           return false; 
         }
+
+//Flipping cards
+const card = document.getElementById("card");
+card.addEventListener("mouseenter", flipCard);
+
+function flipCard(){
+  card.classList.toggle("flipCard");
+}
+
+const cardEmp0 = document.getElementById("card");
+cardEmp0.addEventListener("mouseleave", flipCard);
+
+function returnCard(){
+  cardEmp0.classList.toggle("flipCard");
+}
+
+
 
 
